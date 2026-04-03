@@ -23,7 +23,7 @@ jobs:
           export PATH=$PATH:$PWD/gradle-8.4/bin
 
       - name: Unzip mod source
-        run: unzip divinesword_mod_1.zip
+        run: unzip divinesword_fixed.zip
 
       - name: Build with Gradle
         run: |
